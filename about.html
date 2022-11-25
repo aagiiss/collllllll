@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+          <div class="container">
+            <img src="./logo.png" class="logo" alt="">
+            <div class="header-text">
+                <h1>the main goal is how to teach <br>about it</h1>
+                <span class="square"></span>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga nulla aliquam saepe ratione dicta cum, corrupti, fugiat alias illo error unde laboriosam ipsam nisi labore id velit odio! Iste, eius.</p>
+                     <button class="common_btn">read more</button>
+                <div class="Line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+          </div>
+        </section>  
+        <nav id="sideNav">
+           <ul>
+             <li><a href="#header">HOME</a></li>
+             <li><a href="#about">ABOUT US</a></li>
+             <li><a href="#features">FEATURES</a></li>
+             <li><a href="#OFFER">COURSES</a></li>
+             <li><a href="#OFFER">OFFER</a></li>   
+             <li><a href="#contact">CONTACT</a></li>
+           </ul>
+        </nav> 
+        <img src="./menu.png" id="menuBtn" alt="">
+        <script>
+            var menuBtn = document.getElementById("menuBtn");
+            var sideNav= document.getElementById("sideNav");
+            sideNav.style.right = "-250px";
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                } 
+                else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+        </script>  
+        <section class="about">
+            <div class="about-left-col">
+                <img src="./about.png" alt="">
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h1>about us</h1>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iure perspiciatis unde veniam aliquam repudiandae natus neque qui labore blanditiis obcaecati nihil mollitia doloribus ut cumque, ratione consectetur consequuntur aperiam.</p><br><br>
+                    <button class="common_btn">view all trail</button>
+                    <div class="Line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                    <h2>learning is important than anything else ,learn and learn,learn agian</h2>
+                    <h3>--by Aagii</h3>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+                 <div class="feature-row">
+                    <div class="feature-col">
+                        <img src="./pic-1.png" alt="">
+                        <h4>learn anywhere</h4>
+                        <p>switch between your computer,notebook or mobilephone</p>
+                    </div>
+                    <div class="feature-col">
+                        <img src="./pic-2.png" alt="">
+                        <h4>learn anywhere</h4>
+                        <p>switch between your computer,notebook or mobilephone</p>
+                    </div>
+                    <div class="feature-col">
+                        <img src="./pic-3.png" alt="">
+                        <h4>learn anywhere</h4>
+                        <p>switch between your computer,notebook or mobilephone</p>
+                    </div>
+                 </div>
+                 <div class="feature-btn">
+                    <div class="Line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                    <button class="common_btn">start free trail</button>
+                 </div>
+                 
+        </section>
+     
+        <section id="OFFER">
+            <div class="container course-row">
+                <div class="course-left-col">
+                    <div class="course-text">
+                        <h1>browse our top <br>courses</h1>
+                        <span class="square"></span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia cupiditate inventore, animi delectus voluptas qui itaque magni accusantium, incidunt quas, cumque voluptates aliquid odit debitis esse rerum? Labore, nam magnam.</p>
+                        <button class="common_btn">all courses</button>
+                        <div class="Line">
+                            <span class="line-1"></span><br>
+                            <span class="line-2"></span><br>
+                            <span class="line-3"></span>
+                        </div> 
+
+                    </div>
+                </div>
+                <div class="course-right-col">
+                    <img src="./course.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-left-col">
+                <img src="./offer.png" alt="">
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h1>limitless learning <br>limitless learning</h1>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iure perspiciatis unde veniam aliquam repudiandae natus neque qui labore blanditiis obcaecati nihil mollitia doloribus ut cumque, ratione consectetur consequuntur aperiam.</p><br><br>
+                    <button class="common_btn">start free trail</button>
+                    <div class="Line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container contact-row">
+                <div class="contact-left-col">
+                    <h1>sign up yo join our <br>learning community</h1>
+                    <form action="">
+                        <input type="text" placeholder="Enter name">
+                        <input type="text" placeholder="Enter email">
+                        <input type="text" placeholder="Enter password">
+                        <div class="btn-box">
+                            <button class="common_btn">sign up</button>
+                            <button class="common_btn">start free trail</button>
+                        </div>
+                    </form>
+                    <div class="Line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+                <div class="contact-right-col">
+                    <img src="./contact.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container footer-row">
+                <hr>
+                <div class="footer-left-col">
+                    <div class="footer-links">
+                        <div class="link-title">
+                            <h4>product</h4>
+                            <small>our plan</small>
+                            <small>free trail</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>about us</h4>
+                            <small>request demo</small>
+                            <small>faqs</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>support</h4>
+                            <small>features</small>
+                            <small>contact us</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>explore</h4>
+                            <small>find a nonprofit</small>
+                            <small>coporate solution</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-col">
+                    <div class="footer-info">
+                        <div class="copyright-text">
+                            <small>support@xtypo.com</small><br>
+                            
+                            <small>copyright-2022 </small><br>
+                        </div>
+                        <div class="footer-logo">
+                            <img src="./logo.png" alt="">
+                            <button class="common-btn">english</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="social-icon">
+            <img src="./facebook.png" alt="">
+            <img src="./instagram.png" alt="">
+            <img src="./linkedin.png" alt="">
+            <img src="./twitter.png" alt="">
+        </div>
+</body>
+</html>
